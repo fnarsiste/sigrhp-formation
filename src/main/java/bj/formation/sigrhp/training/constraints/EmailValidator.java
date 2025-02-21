@@ -1,6 +1,5 @@
 package bj.formation.sigrhp.training.constraints;
 
-
 import bj.formation.sigrhp.training.customer.Customer;
 import bj.formation.sigrhp.training.customer.CustomerRepository;
 import jakarta.validation.ConstraintValidator;
