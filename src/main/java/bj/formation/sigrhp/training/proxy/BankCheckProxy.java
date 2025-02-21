@@ -1,17 +1,17 @@
 package bj.formation.sigrhp.training.proxy;
 
-public class CheckProxy {
+public class BankCheckProxy {
     private final DepositAccount account;
 
-    public CheckProxy(DepositAccount account) {
+    public BankCheckProxy(DepositAccount account) {
         this.account = account;
     }
 
-    public void provisioning(double amount) {
+    public void deposit(double amount) {
         account.deposit(amount);
     }
 
-    public void withdraw(double amount) {
+    public void withdrawal(double amount) {
         account.withdraw(amount);
     }
 
